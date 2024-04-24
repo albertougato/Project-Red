@@ -1,0 +1,197 @@
+body {
+    background-color: white;
+    
+}
+p{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: darkred;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.logo {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+.imgheader{
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0)),url(/media/switzerland-862870_1920.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.montagneProfilo {
+    background-image: url(/media/mountains.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    margin: 0;
+}
+
+.titolo {
+    letter-spacing: 40px;
+    color: rgb(146, 0, 0);
+    font-weight: 800;
+}
+/* .imgmontagne{
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0)),url(/media/mountains.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+} */
+
+.lead {
+    margin: 50px 10px 50px 10px;
+    position: relative;
+}
+.apici {
+    color: darkred;
+    font-size: 50px;
+    position: absolute;
+}
+#apice1 {
+    top: -30px;
+}
+.ivisibile {
+    color: rgba(255, 255, 255, 0);
+}
+.p-text {
+    height: 400px;
+}
+.box-icon {
+    min-height: 100px;
+}
+.icona-x {
+    color: darkred;
+    height: 40px;
+}
+.icone {
+    height: 300px;
+}
+.linea {
+    background-color: darkred;
+    height: 5px;
+    max-width: 220px;
+    justify-content: center;
+    align-items: center;
+}
+.testo-icona {
+    min-height: 80px;
+}
+.cerchio {
+    height: 30px;
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 3px solid darkred;
+    position: absolute;
+}
+.testo-1 {
+    height: 400px;
+}
+.profilo-alberi {
+    background: linear-gradient(rgb(255, 255, 255), rgba(0, 0, 0, 0.111));
+    padding: 0;
+}
+.bottone-color {
+    background-color: darkred;
+    width: 200px;
+    padding: 5px;
+    border: 0;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+.bottone-color:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: darkred;
+}
+.timeline-testo {
+    margin: 80px;
+    border-left: 5px solid darkred;
+    padding-left: 30px;
+    width: 50vh;
+}
+
+.riga {
+    border-left: 5px solid darkred;
+    margin: 10px;
+}
+.headertimeline {
+    position: relative;
+    display: flex;
+}
+.headertimeline::before {
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    left: -25px;
+    background-color: white;
+}
+
+.ourtimelinemheader{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+
+.prova{
+    background-color: #ececec;
+}
+
+.ourteamheader{
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+}
+
+.imghamster{
+    margin-top: 20px;
+    height: 25vh;
+    width: 25vh;
+    border: 3px solid darkred;
+    padding: 8px;
+}
+
+.parahamster{
+    font-size: x-small;
+}
+
+i{
+    color: darkred;
+}
+
+.imgfondo{
+    margin-top: 20px;
+    height: 35vh;
+    width: 35vh;
+    border: 3px solid darkred;
+    padding: 8px;
+}
+
+.paddone{
+    padding-top: 60px;
+    padding-bottom: 200px;
+}
+
+.divfooter{
+    padding-top: 50px;
+    padding-left: 50px;
+    background-color: darkred;
+}
+
+.foresta-rossa {
+    background-color: #ececec;
+    padding: 0;
+    
+}
